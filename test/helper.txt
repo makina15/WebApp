@@ -1,2 +1,21 @@
 # installing all dependencies
 pip install -r requirements.txt
+
+
+# How to git
+- Install Git and check the version
+    - git --version
+- first create a folder
+    - git init
+    - git remote add origin https://github.com/makina15/WebApp.git
+- Configure git
+    - git config --local user.name "DataPsycho"
+    - git config --local user.email "mr.data.psycho@gmail.com"
+
+- Pulling Git
+    - git pull origin master
+
+- Pushing Git
+    - git add .
+    - git commit -m "Write a Commit message"
+    - git push origin master
